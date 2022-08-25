@@ -11,12 +11,12 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../../assets/apple-icon-180x180.png">
+  <link href="../../assets/favicon.ico" rel="icon">
 
   <title>Title page</title>  
 
-<link href="./css/aWholeLotOf.css" rel="stylesheet"></head>
+<link href="../../css/aWholeLotOf.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -36,23 +36,23 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="" >01 : Home</a></li>
-          <li><a href="./about.html" title="" >02 : About</a></li>
-          <li><a href="./about.html" title="" >03 : Skills</a></li>
-          <li><a href="./works.html" title="" >04 : Experience</a></li>
-          <li><a href="./works.html" title="" >05 : Projects</a></li>
-          <li><a href="./resume/resume.pdf" download>06 : Resume<i class="fa fa-download" aria-hidden="true"></i></a></li>
+          <li><a href="../../index.html" title="" >01 : Home</a></li>
+          <li><a href="../about.html" title="" >02 : About</a></li>
+          <li><a href="../skills.html" title="" >03 : Skills</a></li>
+          <li><a href="../experience.html" title="" >04 : Experience</a></li>
+          <li><a href="../projects.html" title="" >05 : Projects</a></li>
+          <li><a href="../../resume/resume.pdf" download>06 : Resume<i class="fa fa-download" aria-hidden="true"></i></a></li>
           <!-- <li><a href="./components.html" title="" >05 : Components</a></li> -->
         </ul>
 
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
-            <li><a href="./index.html" title="" class="active">001</a></li>
-            <li><a href="./index.html" title="">002</a></li>
-            <li><a href="./index.html" title="">003</a></li>
-            <li><a href="./index.html" title="">004</a></li>
-            <li><a href="./index.html" title="">005</a></li>
-            <li><a href="./index.html" title="">006</a></li>
+            <li><a href="../../index.html" title="" class="active">001</a></li>
+            <li><a href="../../index.html" title="">002</a></li>
+            <li><a href="../../index.html" title="">003</a></li>
+            <li><a href="../../index.html" title="">004</a></li>
+            <li><a href="../../index.html" title="">005</a></li>
+            <li><a href="../../index.html" title="">006</a></li>
           </ul>
 
 
@@ -64,10 +64,15 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="./assets/images/work001-01.jpg" class="img-responsive" alt="">
+        <img src="../../assets/images/work001-01.jpg" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
-            <h1 class="h2">001 : Fringilla sit amet</h1>
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>001 : Fringilla sit amet</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
           </div>
           <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
 
@@ -83,18 +88,18 @@
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
         <div class="row">
           <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/work001-02.jpg" class="img-responsive" alt="">
+            <img src="../../assets/images/work001-02.jpg" class="img-responsive" alt="">
             <p>Menphis skyline</p>
           </div>
           <div class="col-xs-12 col-md-6">
-            <img src="./assets/images/work001-03.jpg" class="img-responsive" alt="">
+            <img src="../../assets/images/work001-03.jpg" class="img-responsive" alt="">
             <p>Menphis skyline</p>
           </div>
         </div>
       </div>
 
       <div class="col-xs-12">
-        <img src="./assets/images/work001-04.jpg" class="img-responsive" alt="">
+        <img src="../../assets/images/work001-04.jpg" class="img-responsive" alt="">
       </div>
 
     </div>
@@ -106,7 +111,15 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+        <p style="font-size:large">negroj1@unlv.nevada.edu • 
+          <a href="https://www.linkedin.com/in/justin-negron-5b888013a/" title="" class="fa-icon">
+            <i class="fa fa-linkedin"></i>
+          </a>
+          • 
+          <a href="https://github.com/dexterity74" title="" class="fa-icon">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
       </div>
     </div>
   </div>
@@ -115,6 +128,7 @@
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();
+     type();
   });
 </script>
 
@@ -131,6 +145,6 @@
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./js/aWholeLotOf.js"></script></body>
+--> <script type="text/javascript" src="../../js/aWholeLotOf.js"></script></body>
 
 </html>

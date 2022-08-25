@@ -4323,7 +4323,7 @@
 					value: !0
 				});
 				var n = {
-					strings: ["These are the default values...", "You know what you should do?", "Use your own!", "Have a great day!"],
+					strings: ["ayelmao"],
 					stringsElement: null,
 					typeSpeed: 0,
 					startDelay: 0,
@@ -4337,7 +4337,7 @@
 					loop: !1,
 					loopCount: 1 / 0,
 					showCursor: !0,
-					cursorChar: "|",
+					cursorChar: "_",
 					autoInsertCss: !0,
 					attr: null,
 					bindInputFocusEvents: !1,

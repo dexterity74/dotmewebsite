@@ -3643,6 +3643,7 @@ tbody.collapse.in {
   .navbar-nav {
     float: left;
     margin: 0;
+    margin-left: 20px;
   }
   .navbar-nav > li {
     float: left;
@@ -5129,9 +5130,9 @@ textarea {
 .nav > li > a {
   font-size: 18px;
   font-weight: 300;
-  -webkit-transition: all 0.1s linear;
-  -o-transition: all 0.1s linear;
-  transition: all 0.1s linear;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
   /* color: white !important; */
 }
 .nav > li > a.active,
@@ -5173,3 +5174,83 @@ textarea {
   margin-right: 5px;
 }
 
+/* Experience & Education */
+
+.education ol,
+.experience ol {
+    margin: 0;
+    padding: 0;
+}
+
+.experience ol {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+}
+
+.experience ol > li {
+    margin: 0;
+    padding: 0;
+    flex-basis: 100%;
+    font-weight: 300;
+}
+
+.education ol > li {
+    font-weight: 300;
+}
+
+.experience ol > li + li {
+    margin-top: 1em;
+}
+
+.education ol > li div,
+.experience ol > li header {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience ol > li > span,
+.education ol > li p,
+.experience ol > li header p {
+    font-weight: 400;
+}
+
+.experience ol > li header p {
+    font-size: 110%;
+}
+
+.education ol > li div > *:last-child,
+.experience ol > li header > *:last-child {
+    margin-left: auto;
+}
+
+.experience ol > li ul {
+    padding-top: 0.5em;
+}
+
+.experience ol > li ul li {
+    list-style-type: circle;
+    margin-left: 1.618em;
+}
+
+body, .Consolas {
+  font-family: "Consolas";
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  .column {
+    width: 100%;
+  }
+}

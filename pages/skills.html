@@ -11,12 +11,12 @@
   <!-- Disable tap highlight on IE -->
   <meta name="msapplication-tap-highlight" content="no">
   
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-icon-180x180.png">
+  <link href="../assets/favicon.ico" rel="icon">
 
-  <title>Justin Negron | About</title>  
+  <title>Justin Negron | Skills</title>  
 
-<link href="./css/aWholeLotOf.css" rel="stylesheet"></head>
+<link href="../css/aWholeLotOf.css" rel="stylesheet"></head>
 
 <body class="">
 <div id="site-border-left"></div>
@@ -36,12 +36,12 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="" >01 : Home</a></li>
+          <li><a href="../index.html" title="" >01 : Home</a></li>
           <li><a href="./about.html" title="" >02 : About</a></li>
-          <li><a href="./about.html" title="" >03 : Skills</a></li>
-          <li><a href="./works.html" title="" >04 : Experience</a></li>
-          <li><a href="./works.html" title="" >05 : Projects</a></li>
-          <li><a href="./resume/resume.pdf" download>06 : Resume<i class="fa fa-download" aria-hidden="true"></i></a></li>
+          <li><a href="./skills.html" title="" >03 : Skills</a></li>
+          <li><a href="./experience.html" title="" >04 : Experience</a></li>
+          <li><a href="./projects.html" title="" >05 : Projects</a></li>
+          <li><a href="../resume/resume.pdf" download>06 : Resume<i class="fa fa-download" aria-hidden="true"></i></a></li>
           <!-- <li><a href="./components.html" title="" >05 : Components</a></li> -->
         </ul>
 
@@ -56,10 +56,62 @@
       <div class="row">
         <div class="col-xs-12">
           <div class="section-container-spacer text-center">
-            <h1 class="h2">02 : About</h1>
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>03 : Skills</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
           </div>
-          
           <div class="row">
+            <div class="column" style="text-align:center;border-right:1px solid #000;height:250px">
+              <h3 >
+                Proficient
+              </h3>
+              <p >
+                explain what proficient is
+              </p>
+              <ul style="display:inline-block">
+                <li style="text-align:left">C++</li>
+                <li style="text-align:left">Java</li>
+                <li style="text-align:left">Linux</li>
+                <li style="text-align:left">Node.js</li>
+                <li style="text-align:left">Ruby</li>
+                <li style="text-align:left">System Verilog</li>
+              </ul>
+            </div>
+            <div class="column" style="text-align:center;border-right:1px solid #000;height:250px">
+              <h3>
+                Kinda Proficient
+              </h3>
+              <p>
+                explain what Kinda Proficient is
+              </p>
+              <ul style="display:inline-block">
+                <li style="text-align:left">C#</li>
+                <li style="text-align:left">MIPS</li>
+                <li style="text-align:left">RISC-V</li>
+                <li style="text-align:left">x86</li>
+              </ul>
+            </div>
+            <div class="column" style="text-align:center">
+              <h3>
+                Familiar
+              </h3>
+              <p>
+                explain what familiar is
+              </p>
+              <ul style="display:inline-block">
+                <li style="text-align:left">Cobol</li>
+                <li style="text-align:left">Lisp</li>
+                <li style="text-align:left">Python</li>
+              </ul>
+            </div>
+          </div>
+
+          
+          
+          <!-- <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-6">
@@ -75,11 +127,11 @@
                   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
                 </div>
                 <div class="col-xs-12 col-md-6">
-                  <img src="./assets/images/profil.jpg" class="img-responsive" alt="">
+                  <img src="../assets/images/profil.jpg" class="img-responsive" alt="">
                 </div>
               </div>
             </div>
-          </div>
+          </div> -->
           
           
        </div>
@@ -88,19 +140,28 @@
   </div>
 
 
-<footer class="footer-container text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        <p>© UNTITLED | Website created with <a href="http://www.mashup-template.com/" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" title="Beautiful Free Images">Unsplash</a></p>
+  <footer class="footer-container text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <p style="font-size:large">negroj1@unlv.nevada.edu • 
+            <a href="https://www.linkedin.com/in/justin-negron-5b888013a/" title="" class="fa-icon">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            • 
+            <a href="https://github.com/dexterity74" title="" class="fa-icon">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      navActivePage();
+     type();
   });
 </script>
 
@@ -117,6 +178,6 @@
   ga('send', 'pageview');
 </script>
 
---> <script type="text/javascript" src="./js/aWholeLotOf.js"></script></body>
+--> <script type="text/javascript" src="../js/aWholeLotOf.js"></script></body>
 
 </html>
