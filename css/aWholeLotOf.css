@@ -10,6 +10,8 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   scroll-behavior: smooth;
+  /* scrollbar-width has to exist here to work on firefox */
+  scrollbar-width: none;  /* Firefox */
 }
 body {
   margin: 0;
@@ -448,7 +450,7 @@ h2 {
 }
 .h3,
 h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 .h4,
 .h5,
@@ -462,6 +464,7 @@ h6 {
 }
 p {
   margin: 0 0 9.5px;
+  font-size: 14px;
 }
 .lead {
   margin-bottom: 19px;
@@ -4755,6 +4758,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
+  background-attachment: fixed
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4987,6 +4991,7 @@ textarea {
 }
 @media (max-width: 992px) {
   .black-image-project-hover img {
+    /* we don't want to have hover feature on phone because they don't have cursor */
     filter: none;
   }
 }
@@ -5135,9 +5140,9 @@ textarea {
 .nav > li > a {
   font-size: 18px;
   font-weight: 300;
-  -webkit-transition: all 0.2s linear;
-  -o-transition: all 0.2s linear;
-  transition: all 0.2s linear;
+  -webkit-transition: all 0.1s linear;
+  -o-transition: all 0.1s linear;
+  transition: all 0.1s linear;
 }
 .nav > li > a.active,
 .nav > li > a:hover {
@@ -5262,8 +5267,8 @@ body, .Consolas {
 /* custom scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
-   display: none;
-   -ms-overflow-style: none;  /* IE and Edge */
+  display: none;
+  -ms-overflow-style: none;  /* IE and Edge */
   scrollbar-width: none;  /* Firefox */
 }
 
@@ -5281,3 +5286,4 @@ body, .Consolas {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #a8bbbf;
 } 
+

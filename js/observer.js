@@ -22,4 +22,6 @@ const homeObserver = new IntersectionObserver(function(
 }, 
 homeOptions);
 
+// maybe add more observers to highlight the navbar element that user is on
+
 homeObserver.observe(sectionHome);
