@@ -12,17 +12,17 @@
   <meta name="msapplication-tap-highlight" content="no">
   
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
-  <link href="./assets/favicon.ico" rel="icon">
+  <!-- <link href="./assets/favicon.ico" rel="icon"> -->
 
   <title>Justin Negron | Portfolio</title>  
 
 <link href="./css/aWholeLotOf.css" rel="stylesheet"></head>
 
 <body class="minimal">
-<div id="site-border-left"></div>
+<!-- <div id="site-border-left"></div>
 <div id="site-border-right"></div>
 <div id="site-border-top"></div>
-<div id="site-border-bottom"></div>
+<div id="site-border-bottom"></div>  -->
 <!-- Add your content of header -->
 <header>
   <nav class="navbar navbar-fixed-top navbar-inverse">
@@ -36,12 +36,12 @@
 
       <div class="collapse navbar-collapse" id="navbar-collapse">
         <ul class="nav navbar-nav ">
-          <li><a href="./index.html" title="" >01 : Home</a></li>
-          <li><a href="./pages/about.html" title="" >02 : About</a></li>
-          <li><a href="./pages/skills.html" title="" >03 : Skills</a></li>
-          <li><a href="./pages/experience.html" title="" >04 : Experience</a></li>
-          <li><a href="./pages/projects.html" title="" >05 : Projects</a></li>
-          <li><a href="./resume/resume.pdf" download>06 : Resume<i class="fa fa-download" aria-hidden="true"></i></a></li>
+          <li><a href="#home" title="">01 : Home</a></li>
+          <li><a href="#about" title="" >02 : About</a></li>
+          <li><a href="#skills" title="" >03 : Skills</a></li>
+          <li><a href="#experience" title="" >04 : Experience</a></li>
+          <li><a href="#projects" title="" >05 : Projects</a></li>
+          <li><a href="./resume/resume.pdf" download>05 : Resume <i class="fa fa-download" aria-hidden="true"></i></a></li>
           <!-- <li><a href="./components.html" title="" >05 : Components</a></li> -->
         </ul>
 
@@ -51,7 +51,7 @@
   </nav>
 </header>
 <!-- Add your site or app content here -->
-  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/bg.jpg')">
+  <div class="hero-full-container background-image-container white-text-container" style="background-image: url('./assets/images/bg.jpg')" id="home">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
@@ -79,6 +79,314 @@
     </div>
   </div>
 
+  <div class="section-container" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>02 : About</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-6">
+                  <h3>Header 1</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas luctus at sem quis varius. 
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Cras ultrices hendrerit nisl.</p>
+                  <h3>Header 2</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
+                  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                  proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                  <h3>Header 3</h3>
+                  <p>
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Phasellus iaculis magna sagittis elit sagittis, at hendrerit lorem venenatis. Morbi accumsan iaculis blandit. Cras ultrices hendrerit nisl.</p>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                  <img src="./assets/images/profile_bgblur.jpg" class="img-responsive" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="skills">
+    <div class="container">
+      <hr><br>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>03 : Skills</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
+          </div>
+          <div class="row">
+            <div class="column" style="text-align:center;height:275px">
+              <h3 style="font-size:22px">
+                Proficient
+              </h3>
+              <p style="font-size:16px">
+                explain what proficient is
+              </p>
+              <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                <li style="text-align:left">C++</li>
+                <li style="text-align:left">Java</li>
+                <li style="text-align:left">Linux</li>
+                <li style="text-align:left">Node.js</li>
+                <li style="text-align:left">Ruby</li>
+                <li style="text-align:left">System Verilog</li>
+              </ul>
+            </div>
+            <div class="column" style="text-align:center;height:275px">
+              <h3 style="font-size:22px">
+                Kinda Proficient
+              </h3>
+              <p style="font-size:16px">
+                explain what Kinda Proficient is
+              </p>
+              <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                <li style="text-align:left">C#</li>
+                <li style="text-align:left">HTML/CSS/JS</li>
+                <li style="text-align:left">MIPS</li>
+                <li style="text-align:left">RISC-V</li>
+                <li style="text-align:left">x86 Assembly</li>
+              </ul>
+            </div>
+            <div class="column" style="text-align:center">
+              <h3 style="font-size:22px">
+                Familiar
+              </h3>
+              <p style="font-size:16px">
+                explain what familiar is
+              </p>
+              <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                <li style="text-align:left">Cobol</li>
+                <li style="text-align:left">Lisp</li>
+                <li style="text-align:left">Python</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="experience">
+    <div class="container">
+      <br><hr><br>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="section-container-spacer text-center">
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>04 : Experience</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
+          </div>
+
+            <div class="row">
+              <div class="col-md-12 col-md-offset-1">
+                <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                    <h3>Full-Stack Developer<br>
+                      <p style="font-size:17px">Fire By Design
+                        <span style="float:right">
+                          May 2022 — Present
+                        </span>
+                      </p>
+                    </h3>
+                      <p style="font-size:14px">I am developing the front-end and back-end of a web application to manage business
+                        inventory and profit to overhead ratio.<br>
+                        <b>Tools:</b> Ruby on Rails, PostgreSQL, HTML, CSS, and Bootstrap
+                      </p>
+                  </div>
+                  <div class="col-xs-12 col-md-3">
+                    <a href="https://firebydesign.com/" target="_blank" >
+                      <img src="./assets/images/firebydesign.jpg" class="img-responsive" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="row">
+              <div class="col-md-12 col-md-offset-1">
+                <div class="row">
+                  <div class="col-xs-12 col-md-6">
+                    <h3>Software Engineer Intern<br>
+                      <p style="font-size:17px">Westinis/Five Rivers Cattle
+                        <span style="float:right">
+                          Jun 2021 — Aug 2021
+                        </span>
+                      </p>
+                    </h3>
+                    <p style="font-size:14px">I programmed real-time geolocation data points from IoT devices to be displayed on a
+                      XAML map interface.<br>
+                      <b>Tools:</b> C#, Azure SQL, Blazor, .NET 5, and XAML.
+                      </p>
+                  </div>
+                  <div class="col-xs-12 col-md-3">
+                    <a href="https://www.westinis.com/default.aspx" target="_blank" >
+                      <img src="./assets/images/westinis.png" class="img-responsive" alt="">
+                    </a>
+                    <a href="https://www.fiveriverscattle.com/" target="_blank" >
+                      <img src="./assets/images/frc.png" class="img-responsive" alt="">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="projects">
+    <div class="container">
+      <br><hr><br>
+      <div class="row">
+        <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
+          <div class="text-center">
+            <h1 class="h2">
+              <span id="typed-strings">
+                <span>05 : Projects</span>
+              </span>
+              <span id="typed"></span>
+            </h1>
+            <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
+          </div>
+        </div>
+  
+        <div class="col-md-12">
+       
+        <div id="myCarousel" class="carousel slide projects-carousel">
+          <!-- Carousel items -->
+          <div class="carousel-inner">
+              <div class="item active">
+                  <div class="row">
+                      <div class="col-sm-4">
+  
+                        <a href="./projects/project1.html" title="" class="black-image-project-hover">
+                          <img src="./projimages/work01-hover.jpg" alt="" class="img-responsive">
+                        </a>
+                        <div class="card-container card-container-lg">
+                          <h4>001/006</h4>
+                          <h3>Proxy Company Management</h3>
+                          <p>Discord bot for running a proxy company and managing sub-users.</p>
+                          <a href="./projects/project1.html" title="" class="btn btn-default">Discover</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="./projects/project1.html" title="" class="black-image-project-hover">
+                          <img src="./projimages/work02-hover.jpg" alt="" class="img-responsive">
+                        </a>
+                        <div class="card-container card-container-lg">
+                          <h4>002/006</h4>
+                          <h3>Blackjack Emulator</h3>
+                          <p>Proin pharetra metus id iaculis dignissim. In aliquet lorem ut ex.</p>
+                          <a href="./projects/project1.html" title="" class="btn btn-default">Discover</a>
+                        </div>
+                      </div>
+                      <div class="col-sm-4">
+                        <a href="./projects/project1.html" title="" class="black-image-project-hover">
+                          <img src="./projimages/work03-hover.jpg" alt="" class="img-responsive">
+                        </a>
+                        <div class="card-container card-container-lg">
+                          <h4>003/006</h4>
+                          <h3>Logic Gates using MOSFETs</h3>
+                          <p>Fusce sed hendrerit augue, a rhoncus velit. In non lorem mattis, tempor.</p>
+                          <a href="./projects/project1.html" title="" class="btn btn-default">Discover</a>
+                        </div>
+                      </div>
+                    </div>
+                  <!--/row-->
+              </div>
+              <!--/item-->
+              <div class="item">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <a href="./projects/project1.html" class="black-image-project-hover">
+                        <img src="./projimages/work02-hover.jpg" alt="Image" class="img-responsive">
+                      </a>
+                      <div class="card-container">
+                        <h4>004/006</h4>
+                        <h3>Nulla scelerisque</h3>
+                        <p>Discord bot for running a proxy company and managing sub-users</p>
+                        <a href="./projects/project1.html" class="btn btn-default">Discover</a>
+                      </div>
+                    </div>
+                     <div class="col-sm-4">
+                        <a href="./projects/project1.html" class="black-image-project-hover">
+                          <img src="./projimages/work01-hover.jpg" alt="Image" class="img-responsive">
+                        </a>
+                        <div class="card-container">
+                          <h4>005/006</h4>
+                          <h3>Fringilla sit amet</h3>
+                          <p>Discord bot for running a proxy company and managing sub-users</p>
+                          <a href="./projects/project1.html" class="btn btn-default">Discover</a>
+                        </div>
+                      </div>
+                      
+                      <div class="col-sm-4">
+                        <a href="./projects/project1.html" class="black-image-project-hover">
+                          <img src="./projimages/work03-hover.jpg" alt="Image" class="img-responsive">
+                        </a>
+                        <div class="card-container">
+                          <h4>006/006</h4>
+                          <h3>Vivamus vestibulum</h3>
+                          <p>Fusce sed hendrerit augue, a rhoncus velit.</p>
+                          <a href="./projects/project1.html" class="btn btn-default">Discover</a>
+                        </div>
+                      </div>
+                  </div>
+                  <!--/row-->
+              </div>
+              <!--/item-->
+          </div>
+          <!--/carousel-inner--> 
+          <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+          <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+        </div>
+      <!--/myCarousel-->
+      </div>
+    </div>
+  </div>
+
+  <br><br><br><br><br><br><br><br><br>
+
+  <footer class="footer-container text-center">
+    <div class="container">
+      <hr>
+      <div class="row">
+        <div class="col-xs-12">
+          <p style="font-size:large">negroj1@unlv.nevada.edu • 
+            <a href="https://www.linkedin.com/in/justin-negron-5b888013a/" title="" class="fa-icon">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            • 
+            <a href="https://github.com/dexterity74" title="" class="fa-icon">
+              <i class="fa fa-github"></i>
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <br>
+  </footer>
+
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
      type();
@@ -86,6 +394,7 @@
   });
 </script>
 
-<script type="text/javascript" src="./js/aWholeLotOf.js"></script></body>
+<script type="text/javascript" src="./js/aWholeLotOf.js"></script>
+<script type="text/javascript" src="./js/observer.js"></script></body>
 
 </html>

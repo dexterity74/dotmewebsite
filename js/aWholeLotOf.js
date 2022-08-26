@@ -4467,8 +4467,8 @@
 		}
 		var r = {
 			"./apple-icon-180x180.png": "4FPD",
-			"./images/profil.jpg": "4hhi",
-			"./images/space.jpg": "wonT",
+			"./images/profile.jpg": "4hhi",
+			"./images/bg.jpg": "wonT",
 			"./images/work001-01.jpg": "bz8M",
 			"./images/work001-02.jpg": "tmRP",
 			"./images/work001-03.jpg": "4vuW",
