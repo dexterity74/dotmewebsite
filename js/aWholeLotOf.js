@@ -436,8 +436,36 @@
 		"use strict";
 		(function(t) {
 			function i(t) {
-				new s.a("#typed", {
-					stringsElement: "#typed-strings",
+				new s.a("#typed1", {
+					stringsElement: "#typed-strings1",
+					typeSpeed: 100,
+					backSpeed: 20,
+					loop: !0,
+					loopCount: 1 / 0
+				})
+				new s.a("#typed2", {
+					stringsElement: "#typed-strings2",
+					typeSpeed: 100,
+					backSpeed: 20,
+					loop: !0,
+					loopCount: 1 / 0
+				})
+				new s.a("#typed3", {
+					stringsElement: "#typed-strings3",
+					typeSpeed: 100,
+					backSpeed: 20,
+					loop: !0,
+					loopCount: 1 / 0
+				})
+				new s.a("#typed4", {
+					stringsElement: "#typed-strings4",
+					typeSpeed: 100,
+					backSpeed: 20,
+					loop: !0,
+					loopCount: 1 / 0
+				})
+				new s.a("#typed5", {
+					stringsElement: "#typed-strings5",
 					typeSpeed: 100,
 					backSpeed: 20,
 					loop: !0,
