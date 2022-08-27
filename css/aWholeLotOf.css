@@ -15,7 +15,7 @@ html {
 }
 body {
   margin: 0;
-  overflow-x:hidden;
+  overflow: overlay;
 }
 article,
 aside,
@@ -271,6 +271,7 @@ body {
   line-height: 1.78;
   color: #000;
   background-color: #fff;
+  overflow-x:hidden;
 }
 button,
 input,
@@ -680,7 +681,7 @@ blockquote small {
 blockquote .small:before,
 blockquote footer:before,
 blockquote small:before {
-  content: "\2014   \A0";
+  content: "";
 }
 .blockquote-reverse,
 blockquote.pull-right {
@@ -5281,10 +5282,11 @@ body, .Consolas {
 
 ::-webkit-scrollbar-track {
   background-color: transparent;
+  
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: #d6dee1;
+  background-color: #c6ced1;
   border-radius: 20px;
   border: 6px solid transparent;
   background-clip: content-box;
