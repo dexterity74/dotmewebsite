@@ -15,6 +15,7 @@ html {
 }
 body {
   margin: 0;
+  overflow-x:hidden;
 }
 article,
 aside,
@@ -52,6 +53,7 @@ a {
 a:active,
 a:hover {
   outline: 0;
+  
 }
 abbr[title] {
   border-bottom: 1px dotted;
@@ -4760,7 +4762,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed
+  background-attachment: fixed;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4816,6 +4818,8 @@ body.minimal {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
+  /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
+  transform: scale(1.03);
 }
 .btn {
   -webkit-transition: all 0.2s linear;
@@ -5149,6 +5153,7 @@ textarea {
 .nav > li > a.active,
 .nav > li > a:hover {
   font-weight: 700;
+
 }
 .nav.navbar-small > li > a {
   font-size: 11px;
@@ -5269,9 +5274,9 @@ body, .Consolas {
 /* custom scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
-  display: none;
+  /* display: none;
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+  /* scrollbar-width: none;  Firefox */
 }
 
 ::-webkit-scrollbar-track {

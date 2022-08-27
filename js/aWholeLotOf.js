@@ -436,6 +436,7 @@
 		"use strict";
 		(function(t) {
 			function i(t) {
+				// finally found the spot to type out each individual header
 				new s.a("#typed1", {
 					stringsElement: "#typed-strings1",
 					typeSpeed: 100,
@@ -483,16 +484,18 @@
 					n = window.innerHeight / 5;
 				t.addEventListener("mousemove", function(i) {
 					var o = i.clientX / e,
-						r = i.clientY / n;
-					t.style.transform = "translate3d(-" + 1.5 * o + "px, -" + 1.5 * r + "px, 0)"
+						r = i.clientY / n;	
+					// added scale(1.02) so there was no edge leak 
+					// now that it's zoomed in a bit, the multipliers need to be less
+					t.style.transform = "scale(1.03) translate3d(-" + 1.25 * o + "px, -" + 1.25 * r + "px, 0)"	
 				})
 			}
 			n.d(e, "c", function() {
-				return i
+				return i;
 			}), n.d(e, "b", function() {
-				return o
+				return o;
 			}), n.d(e, "a", function() {
-				return r
+				return r;
 			});
 			var s = n("25lU")
 		}).call(e, n("juYr"))
