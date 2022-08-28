@@ -189,6 +189,7 @@ th {
   :after,
   :before {
     background: transparent !important;
+    background-size: 100px 100px !important;
     color: #000 !important;
     box-shadow: none !important;
     text-shadow: none !important;
@@ -4763,7 +4764,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
