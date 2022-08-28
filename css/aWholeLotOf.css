@@ -4819,7 +4819,7 @@ body.minimal {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
