@@ -487,7 +487,10 @@
 						r = i.clientY / n;	
 					// added scale(1.02) so there was no edge leak 
 					// now that it's zoomed in a bit, the multipliers need to be less
-					t.style.transform = "scale(1.03) translate3d(-" + 1.25 * o + "px, -" + 1.25 * r + "px, 0)"	
+					t.style.transform = "scale(1.01) translate3d(-" + 1 * o + "px, -" + 1 * r + "px, 0)";
+					
+					//bad, blurs image
+					// t.style.transition = "initial 0.2s linear";
 				})
 			}
 			n.d(e, "c", function() {

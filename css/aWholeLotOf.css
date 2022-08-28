@@ -4819,9 +4819,11 @@ body.minimal {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-
+  background-attachment: fixed;
   /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
-  transform: scale(1.03);
+
+  /* keep if live background DOES NOT work on phone */
+  transform: scale(1.01);
 }
 .btn {
   -webkit-transition: all 0.2s linear;
