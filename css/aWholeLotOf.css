@@ -273,20 +273,20 @@ body {
   background-color: #fff;
   overflow-x:hidden;
 }
-body:after{
+/* body:after{
   content:"";
-  position:fixed; /* stretch a fixed position to the whole screen */
+  position:fixed; 
   top:0;
-  height:100vh; /* fix for mobile browser address bar appearing disappearing */
+  height:100vh; 
   left:0;
   right:0;
-  z-index:-1; /* needed to keep in the background */
+  z-index:-1;
+  background: url('./assets/images/bg.jpg') center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow-x:hidden;
-}
+} */
 button,
 input,
 select,
@@ -4854,21 +4854,22 @@ body.minimal {
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
-  z-index: -1;
   /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
 }
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .background-image-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
     background-size: cover;
+  
     background-repeat: no-repeat;
     background-position: top;
-    background-attachment: fixed;
-    transform: scale(1.01);
+    background-attachment: scroll;
   }
-} */
+} 
 .btn {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
