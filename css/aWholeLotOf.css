@@ -4782,7 +4782,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4853,8 +4853,8 @@ body.minimal {
 
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
-  /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
+  background-attachment: scroll;
+  /* made to be flush with js, BUT this breaks the background-attachment: scroll; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
