@@ -492,6 +492,12 @@
 					//bad, blurs image
 					// t.style.transition = "initial 0.2s linear";
 				})
+				t.addEventListener("deviceorientation", function(i) {
+					var o = i.clientX / e,
+						r = i.clientY / n;	
+
+					t.style.transform = "scale(1.01) translate3d(-" + 1 * o + "px, -" + 1 * r + "px, 0)";
+				})
 			}
 			n.d(e, "c", function() {
 				return i;
