@@ -2952,6 +2952,11 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
+@media (min-width: 991px) {
+  .br-margin-desktop {
+    margin-top: 100px;
+  }
+}
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4763,7 +4768,6 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4790,6 +4794,18 @@ body.minimal {
 }
 .white-text-container a {
   color: #fff;
+}
+@media (max-width: 480px) {
+  .white-text-container h1,
+  .white-text-container h2,
+  .white-text-container h3,
+  .white-text-container h4,
+  .white-text-container h5,
+  .white-text-container p {
+    text-shadow: 0 1px 3px #000;
+    color: #fff;
+    font-size: 52px;
+  }
 }
 .section-container-spacer {
   margin-bottom: 30px;
@@ -4824,6 +4840,19 @@ body.minimal {
 
   /* keep if live background DOES NOT work on phone */
   transform: scale(1.01);
+}
+@media (max-width: 768px) {
+  /* change stuff */
+  .background-image-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
+  
+    /* keep if live background DOES NOT work on phone */
+    transform: scale(1.01);
+  }
 }
 .btn {
   -webkit-transition: all 0.2s linear;
