@@ -4768,6 +4768,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
+  background-attachment: fixed;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4835,13 +4836,14 @@ body.minimal {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+
   background-repeat: no-repeat;
   background-position: top;
   background-attachment: fixed;
   /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
-  transform: scale(1.01);
+  /* transform: scale(1.01); */
 }
 /* @media (max-width: 768px) {
   .background-image-container {
