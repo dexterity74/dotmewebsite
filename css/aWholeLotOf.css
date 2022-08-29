@@ -4795,7 +4795,7 @@ body.minimal {
 .white-text-container a {
   color: #fff;
 }
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .white-text-container h1,
   .white-text-container h2,
   .white-text-container h3,
@@ -4806,7 +4806,7 @@ body.minimal {
     color: #fff;
     font-size: 52px;
   }
-}
+} */
 .section-container-spacer {
   margin-bottom: 30px;
 }
@@ -4832,6 +4832,8 @@ body.minimal {
   }
 }
 .background-image-container {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
@@ -4841,19 +4843,15 @@ body.minimal {
   /* keep if live background DOES NOT work on phone */
   transform: scale(1.01);
 }
-@media (max-width: 768px) {
-  /* change stuff */
+/* @media (max-width: 768px) {
   .background-image-container {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
-    /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
-  
-    /* keep if live background DOES NOT work on phone */
     transform: scale(1.01);
   }
-}
+} */
 .btn {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
