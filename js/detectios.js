@@ -14,7 +14,7 @@ function matchBackgroundDevice() {
     // also allow font sizes to not go off-screen on mobiles devices
     if(ua.device.family === 'iPhone') {
         // bgType[0].style.backgroundSize = "cover";
-        bgType[0].style.backgroundImage = "url('./assets/images/bg_ipad.jpg')";
+        bgType[0].style.backgroundImage = "url('./assets/images/bg_iphone.jpg')";
         fontSize.style.fontSize = '50px';
         //document.body.style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
     }
