@@ -4771,7 +4771,7 @@ body.minimal {
   padding: 0;
 }
 .hero-full-container {
-  height: 100rem;
+  height: 100vh;
   /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
@@ -4825,8 +4825,6 @@ body.minimal {
   }
 }
 .background-image-container {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
