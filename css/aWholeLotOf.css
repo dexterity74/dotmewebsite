@@ -16,7 +16,6 @@ html {
 body {
   margin: 0;
   overflow: overlay;
-  -webkit-overflow-scrolling: touch;
 }
 article,
 aside,
@@ -274,20 +273,6 @@ body {
   background-color: #fff;
   overflow-x:hidden;
 }
-/* body:after{
-  content:"";
-  position:fixed; 
-  top:0;
-  height:100vh; 
-  left:0;
-  right:0;
-  z-index:-1;
-  background: url('./assets/images/bg.jpg') center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-} */
 button,
 input,
 select,
@@ -2967,11 +2952,6 @@ tbody.collapse.in {
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 991px) {
-  .br-margin-desktop {
-    margin-top: 100px;
-  }
-}
 @media (min-width: 768px) {
   .navbar-right .dropdown-menu {
     right: 0;
@@ -4782,8 +4762,8 @@ body.minimal {
   padding: 0;
 }
 .hero-full-container {
-  height: 100rem;
-  /* background-attachment: fixed; */
+  height: 100vh;
+  background-attachment: fixed;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4811,18 +4791,6 @@ body.minimal {
 .white-text-container a {
   color: #fff;
 }
-/* @media (max-width: 480px) {
-  .white-text-container h1,
-  .white-text-container h2,
-  .white-text-container h3,
-  .white-text-container h4,
-  .white-text-container h5,
-  .white-text-container p {
-    text-shadow: 0 1px 3px #000;
-    color: #fff;
-    font-size: 52px;
-  }
-} */
 .section-container-spacer {
   margin-bottom: 30px;
 }
@@ -4847,34 +4815,17 @@ body.minimal {
     padding-top: 30px;
   }
 }
-
 .background-image-container {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
   background-size: cover;
-  background-image: url('../assets/images/bg_iphone.jpg');
-
   background-repeat: no-repeat;
   background-position: top;
-  /* background-attachment: fixed; */
-  /* made to be flush with js, BUT this breaks the /* background-attachment: fixed;  feature when scrolling */
+  background-attachment: fixed;
+  background-image: url('../assets/images/bg.jpg')
+  /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
 }
-@media (hover: hover) {
-  .background-image-container {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    
-  
-    background-repeat: no-repeat;
-    background-position: top;
-    background-image: url('../assets/images/bg_iphone.jpg') !important;
-  }
-}
-
 .btn {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
@@ -5183,7 +5134,7 @@ textarea {
 .navbar-default .navbar-toggle:hover {
   background-color: #fff;
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
   .navbar-inverse {
     background-color: transparent;
   }

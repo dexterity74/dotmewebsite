@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <!-- <meta content="width=device-width,initial-scale=1" name="viewport"> -->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
   <meta content="description" name="description">
   <meta name="google" content="notranslate" />
 
@@ -21,7 +21,7 @@
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-icon-180x180.png">
   <link media="only screen and (max-device-width: 480px)" href="./css/iPhone.css" type= "text/css" rel="stylesheet" />
   
-  <link href="./assets/favicon.ico" rel="icon">
+  <!-- <link href="./assets/favicon.ico" rel="icon"> -->
 
   <title>Justin Negron | Portfolio</title>  
 
@@ -106,18 +106,16 @@
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-6">
-                  <div class="br-margin-desktop">
-                    <h3>Justin Negron
-                      <p style="font-size:17px">
-                        University of Nevada, Las Vegas
-                      </p>
-                    </h3>
-                    <p>I'm currently an undergraduate working towards two bachelor of science degrees in Computer Science and Computer Engineering, 
-                      and also receiving a Minor in Mathematics. I am currently seeking a Technical Internship for Summer 2023.</p>
-                  
-                  </div>
+                  <br><br><br><br>
+                  <h3>Justin Negron
+                    <p style="font-size:17px">
+                      University of Nevada, Las Vegas
+                    </p>
+                  </h3>
+                  <p>I'm currently an undergraduate working towards two bachelor of science degrees in Computer Science and Computer Engineering, 
+                    and also receiving a Minor in Mathematics. I am currently seeking a Technical Internship for Summer 2023.</p>
                 </div>
-                <div class="col-xs-12 col-md-5" style="text-align: center">
+                <div class="col-xs-12 col-md-5">
                   <img src="./assets/images/profile_bgblur.jpg" class="img-responsive" alt="">
                 </div>
               </div>
@@ -408,13 +406,17 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
-     type();
+    type();
+    // moved to detectios.js
     //  movingBackgroundImage();
+    matchBackgroundDevice();
   });
 
 </script>
 
 <script type="text/javascript" src="./js/aWholeLotOf.js"></script>
-<script type="text/javascript" src="./js/observer.js"></script></body>
+<script type="text/javascript" src="./js/observer.js"></script>
+<script type="text/javascript" src="./js/detect.min.js"></script></body>
+<script type="text/javascript" src="./js/detectios.js"></script></body></body>
 
 </html>
