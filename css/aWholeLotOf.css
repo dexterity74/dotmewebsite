@@ -4861,9 +4861,16 @@ body.minimal {
   /* transform: scale(1.01); */
 }
 
-@media (-webkit-touch-callout: none) {
+@media (max-width: 480px) {
   .background-image-container {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
     background-image: url('../assets/images/bg_iphone.jpg');
+  
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
   }
 } 
 .btn {
