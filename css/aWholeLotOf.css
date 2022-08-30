@@ -4782,7 +4782,7 @@ body.minimal {
   padding: 0;
 }
 .hero-full-container {
-  height: 100vh;
+  height: 100rem;
   /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
@@ -4852,12 +4852,12 @@ body.minimal {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../assets/images/bg_iphone.jpg');
 
   background-repeat: no-repeat;
   background-position: top;
   /* background-attachment: fixed; */
-  /* made to be flush with js, BUT this breaks the /* background-attachment: fixed; */ feature when scrolling */
+  /* made to be flush with js, BUT this breaks the /* background-attachment: fixed;  feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
