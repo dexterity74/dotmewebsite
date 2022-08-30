@@ -16,6 +16,7 @@ html {
 body {
   margin: 0;
   overflow: overlay;
+  -webkit-overflow-scrolling: touch;
 }
 article,
 aside,
@@ -4846,6 +4847,7 @@ body.minimal {
     padding-top: 30px;
   }
 }
+
 .background-image-container {
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -4863,7 +4865,10 @@ body.minimal {
 
 @supports (-webkit-touch-callout: none) {
   .background-image-container {
-    background-image: url('../assets/images/bg_iphone.jpg') center/cover no-repeat;
+    background-image: url('../assets/images/bg_iphone.jpg') top center fixed no-repeat !important;
+    background-size: cover !important;
+    height: 100% !important;
+    overflow: hidden !important;
   }
 } 
 .btn {
