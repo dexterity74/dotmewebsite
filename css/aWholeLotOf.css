@@ -4771,7 +4771,7 @@ body.minimal {
   padding: 0;
 }
 .hero-full-container {
-  height: 100rem;
+  height: 100vh;
   /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
