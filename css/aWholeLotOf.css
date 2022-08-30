@@ -4771,7 +4771,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4827,7 +4827,7 @@ body.minimal {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-image: url('../assets/images/bg.jpg')
   /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
