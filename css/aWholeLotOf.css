@@ -4863,14 +4863,7 @@ body.minimal {
 
 @supports (-webkit-touch-callout: none) {
   .background-image-container {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-image: url('../assets/images/bg_iphone.jpg');
-  
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: fixed;
+    background-image: url('../assets/images/bg_iphone.jpg') center/cover no-repeat;
   }
 } 
 .btn {
