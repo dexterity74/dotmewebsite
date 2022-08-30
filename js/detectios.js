@@ -1,15 +1,9 @@
 const ua = detect.parse(navigator.userAgent);
 
-//const backgroundType = document.querySelector('.background-image-container');
-
-// console.log(ua.device.family);
-// console.log(ua.device.name);
-// console.log(ua.device.manufacturer);
-// console.log(ua.device.type);
-
 function matchBackgroundDevice() {
     var bgType = document.getElementsByClassName('background-image-container');
     var fontSize = document.getElementById('typed1');
+    //var projectFontSize = document.getElementById('typed1');
     // iPhones are special, they render images strangely, so we need a less wide image for bg
     // also allow font sizes to not go off-screen on mobiles devices
     if(ua.device.family === 'iPhone') {
