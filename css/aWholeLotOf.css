@@ -2091,6 +2091,11 @@ select.input-lg {
   height: 41px;
   line-height: 41px;
 }
+@media (min-width: 991px) {
+  .br-margin-desktop {
+    margin-top: 100px;
+  }
+}
 .input-group-lg > .input-group-btn > select[multiple].btn,
 .input-group-lg > .input-group-btn > textarea.btn,
 .input-group-lg > select[multiple].form-control,
