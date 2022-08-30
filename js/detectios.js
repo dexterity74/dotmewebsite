@@ -26,14 +26,14 @@ function matchBackgroundDevice() {
     // background does work. However, we don't want the background to move, we want to stay fixed
     else if(ua.device.type === 'Mobile') {
         bgType[0].style.backgroundImage = "url('./assets/images/bg_iphone.jpg')";
-        bgType[0].style.backgroundAttachment = "fixed";
+        // bgType[0].style.backgroundAttachment = "fixed";
         fontSize.style.fontSize = '50px';
     }
     // This points to desktops, macs, etc. We do want background to move
     else{
         //document.body.style.backgroundImage = "url('assets/images/bg.jpg')";
         bgType[0].style.backgroundImage = "url('./assets/images/bg.jpg')";
-        bgType[0].style.backgroundAttachment = "fixed";
+        // bgType[0].style.backgroundAttachment = "fixed";
         bgType[0].style.transform = "scale(1.01)";
         movingBackgroundImage();
     }
