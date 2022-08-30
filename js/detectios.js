@@ -2,10 +2,10 @@ const ua = detect.parse(navigator.userAgent);
 
 //const backgroundType = document.querySelector('.background-image-container');
 
-console.log(ua.device.family);
-console.log(ua.device.name);
-console.log(ua.device.manufacturer);
-console.log(ua.device.type);
+// console.log(ua.device.family);
+// console.log(ua.device.name);
+// console.log(ua.device.manufacturer);
+// console.log(ua.device.type);
 
 function matchBackgroundDevice() {
     var bgType = document.getElementsByClassName('background-image-container');
@@ -13,11 +13,13 @@ function matchBackgroundDevice() {
     // iPhones are special, they render images strangely, so we need a less wide image for bg
     // also allow font sizes to not go off-screen on mobiles devices
     if(ua.device.family === 'iPhone') {
+        bgType[0].style.backgroundSize = "cover";
         bgType[0].style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
         fontSize.style.fontSize = '50px';
         //document.body.style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
     }
     else if(ua.device.family === 'iPad') {
+        bgType[0].style.backgroundSize = "cover";
         bgType[0].style.backgroundImage = "url('assets/images/bg_ipad.jpg')";
     }
     // This is to point to Androids and any mobile device that is not iOS because the original
