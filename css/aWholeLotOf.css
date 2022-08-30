@@ -4869,6 +4869,7 @@ body.minimal {
     background-size: cover !important;
     height: 100% !important;
     overflow: hidden !important;
+    background-attachment: scroll !important;
   }
 } 
 .btn {
