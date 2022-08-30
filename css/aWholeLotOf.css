@@ -4782,7 +4782,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: scroll;
+  background-attachment: fixed;
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4850,24 +4850,20 @@ body.minimal {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
+  background-image: url('../assets/images/bg.jpg');
 
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: scroll;
-  /* made to be flush with js, BUT this breaks the background-attachment: scroll; feature when scrolling */
+  background-attachment: fixed;
+  /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
 }
-@media (max-width: 768px) {
+
+@media (-webkit-touch-callout: none) {
   .background-image-container {
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-  
-    background-repeat: no-repeat;
-    background-position: top;
-    background-attachment: scroll;
+    background-size: auto 100vh;
   }
 } 
 .btn {
