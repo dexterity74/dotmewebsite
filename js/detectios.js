@@ -25,7 +25,7 @@ function matchBackgroundDevice() {
     // This is to point to Androids and any mobile device that is not iOS because the original
     // background does work. However, we don't want the background to move, we want to stay fixed
     else if(ua.device.type === 'Mobile') {
-        bgType[0].style.backgroundImage = "url('./assets/images/bg.jpg')";
+        bgType[0].style.backgroundImage = "url('./assets/images/bg_iphone.jpg')";
         bgType[0].style.backgroundAttachment = "fixed";
         fontSize.style.fontSize = '50px';
     }
