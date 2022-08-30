@@ -4852,7 +4852,7 @@ body.minimal {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
-  background-image: url('../assets/images/bg.jpg');
+  background-image: url('../assets/images/bg_phone.jpg');
 
   background-repeat: no-repeat;
   background-position: top;
@@ -4867,6 +4867,7 @@ body.minimal {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
+    
   
     background-repeat: no-repeat;
     background-position: top;
