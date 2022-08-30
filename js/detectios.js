@@ -14,18 +14,18 @@ function matchBackgroundDevice() {
     // also allow font sizes to not go off-screen on mobiles devices
     if(ua.device.family === 'iPhone') {
         // bgType[0].style.backgroundSize = "cover";
-        bgType[0].style.backgroundImage = "url('./assets/images/bg.jpg')";
+        bgType[0].style.backgroundImage = "url('./assets/images/bg_iphone.jpg')";
         fontSize.style.fontSize = '50px';
         //document.body.style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
     }
     else if(ua.device.family === 'iPad') {
         // bgType[0].style.backgroundSize = "cover";
-        bgType[0].style.backgroundImage = "url('./assets/images/bg.jpg')";
+        bgType[0].style.backgroundImage = "url('./assets/images/bg_ipad.jpg')";
     }
     // This is to point to Androids and any mobile device that is not iOS because the original
     // background does work. However, we don't want the background to move, we want to stay fixed
     else if(ua.device.type === 'Mobile') {
-        bgType[0].style.backgroundImage = "url('./assets/images/bg.jpg')";
+        bgType[0].style.backgroundImage = "url('./assets/images/bg_iphone.jpg')";
         bgType[0].style.backgroundAttachment = "fixed";
         fontSize.style.fontSize = '50px';
     }
