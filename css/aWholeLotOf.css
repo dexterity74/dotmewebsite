@@ -4861,7 +4861,7 @@ body.minimal {
   /* transform: scale(1.01); */
 }
 
-@media (max-width: 480px) {
+@supports (-webkit-touch-callout: none) {
   .background-image-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
