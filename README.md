@@ -15,5 +15,6 @@ Used [normalize.css](https://github.com/necolas/normalize.css), best css reset.
 
 * Hosted on a Raspberry PI 4
 * NGINX Reverse Proxy and Web Server
+* Let's Encrypt SSL Certificate
 * Cloudflare DNS
 * Namecheap Domain
