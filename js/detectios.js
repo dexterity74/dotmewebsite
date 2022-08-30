@@ -12,12 +12,12 @@ function matchBackgroundDevice() {
     var fontSize = document.getElementById('typed1');
     // iPhones are special, they render images strangely, so we need a less wide image for bg
     // also allow font sizes to not go off-screen on mobiles devices
-    if(ua.device.name === 'iPhone') {
+    if(ua.device.family === 'iPhone') {
         bgType[0].style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
         fontSize.style.fontSize = '50px';
         //document.body.style.backgroundImage = "url('assets/images/bg_iphone.jpg')";
     }
-    else if(ua.device.name === 'iPad') {
+    else if(ua.device.family === 'iPad') {
         bgType[0].style.backgroundImage = "url('assets/images/bg_ipad.jpg')";
     }
     // This is to point to Androids and any mobile device that is not iOS because the original
