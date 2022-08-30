@@ -4863,7 +4863,7 @@ body.minimal {
 
 @media (-webkit-touch-callout: none) {
   .background-image-container {
-    background-size: auto 100vh;
+    background-image: url('../assets/images/bg_iphone.jpg');
   }
 } 
 .btn {
