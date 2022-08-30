@@ -4783,7 +4783,7 @@ body.minimal {
 }
 .hero-full-container {
   height: 100vh;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 }
 .hero-full-container h1 {
   font-family: "Consolas", sans-serif;
@@ -4856,23 +4856,13 @@ body.minimal {
 
   background-repeat: no-repeat;
   background-position: top;
-  background-attachment: fixed;
-  /* made to be flush with js, BUT this breaks the background-attachment: fixed; feature when scrolling */
+  /* background-attachment: fixed; */
+  /* made to be flush with js, BUT this breaks the /* background-attachment: fixed; */ feature when scrolling */
 
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
 }
 
-@supports (-webkit-touch-callout: none) {
-  .background-image-container {
-    background-image: url('../assets/images/bg_iphone.jpg') top center fixed no-repeat !important;
-    background-size: cover !important;
-    height: 100% !important;
-    overflow: hidden !important;
-    background-attachment: scroll !important;
-    max-width: 320px !important;
-  }
-} 
 .btn {
   -webkit-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
