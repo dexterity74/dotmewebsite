@@ -4862,7 +4862,7 @@ body.minimal {
   /* keep if live background DOES NOT work on phone */
   /* transform: scale(1.01); */
 }
-@media (hover: hover) {
+/* @media (hover: hover) {
   .background-image-container {
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -4873,7 +4873,7 @@ body.minimal {
     background-position: top;
     background-image: url('../assets/images/bg_iphone.jpg') !important;
   }
-}
+} */
 
 .btn {
   -webkit-transition: all 0.2s linear;
