@@ -299,7 +299,7 @@
 		n("Lu+Q"), n("s51k"), n("m5Wh"), n("x66a"), n("laCn"), n("hxo1"), n("mEQU"), n("1/9l"), n("oOvE"), n("gnpq"), n("vQEO"), n("V1TA")
 	},
 	"6xrK": function(t, e, n) {
-		t.exports = n.p + "../projimageswork03-hover.jpg"
+		t.exports = n.p + "../projimagesmosfettologic.jpg"
 	},
 	JkW7: function(t, e, n) {
 		"use strict";
@@ -649,7 +649,7 @@
 		}).call(e, n("juYr"))
 	},
 	jgpj: function(t, e, n) {
-		t.exports = n.p + "../projimageswork01-hover.jpg"
+		t.exports = n.p + "../projimagesadminhelpmenu.jpg"
 	},
 	juYr: function(t, e, n) {
 		var i, o;
@@ -4507,9 +4507,9 @@
 			"./images/blackjackBlockDiagram.jpeg": "tmRP",
 			"./images/blackjackFlowChart.jpeg": "4vuW",
 			"./images/work001-04.jpg": "LyUB",
-			"./images/work01-hover.jpg": "jgpj",
-			"./images/work02-hover.jpg": "wvqX",
-			"./images/work03-hover.jpg": "6xrK"
+			"./images/adminhelpmenu.jpg": "jgpj",
+			"./images/de2boardbanner.jpg": "wvqX",
+			"./images/mosfettologic.jpg": "6xrK"
 		};
 		i.keys = function() {
 			return Object.keys(r)
@@ -4614,7 +4614,7 @@
 		t.exports = n.p + "../assets/images/bg.jpg"
 	},
 	wvqX: function(t, e, n) {
-		t.exports = n.p + "../projimageswork02-hover.jpg"
+		t.exports = n.p + "../projimagesde2boardbanner.jpg"
 	},
 	x66a: function(t, e, n) {
 		(function(t) {
