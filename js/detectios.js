@@ -1,8 +1,9 @@
 const ua = detect.parse(navigator.userAgent);
 
+
 function matchBackgroundDevice() {
     var bgType = document.getElementsByClassName('background-image-container');
-    var fontSize = document.getElementById('typed1');
+    let fontSize = document.getElementById('typed1');
     //var projectFontSize = document.getElementById('typed1');
     // iPhones are special, they render images strangely, so we need a less wide image for bg
     // also allow font sizes to not go off-screen on mobiles devices
@@ -30,5 +31,13 @@ function matchBackgroundDevice() {
         bgType[0].style.backgroundAttachment = "fixed";
         bgType[0].style.transform = "scale(1.01)";
         movingBackgroundImage();
+    }
+}
+
+function matchTextDevice() {
+    let fontSize = document.getElementById('typedProj1');
+
+    if(ua.device.family === 'iPhone' || ua.device.type === 'Mobile') {
+        fontSize.style.fontSize = '15px !important';
     }
 }

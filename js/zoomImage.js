@@ -1,8 +1,10 @@
 mediumZoom('.zoom', {
-    margin: 60
+    margin: 20,
+    scrollOffset: 100
 })
 
 mediumZoom('.zoom-background', {
-    margin: 60,
+    margin: 20,
+    scrollOffset: 100,
     background: "#FFF"
 });

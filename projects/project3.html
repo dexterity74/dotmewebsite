@@ -46,8 +46,8 @@
 
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
             <li><a href="https://github.com/dexterity74/ProxyDiscordCompany" title="" style="font-size:larger">001</a></li>
-            <li><a href="./project2.html" title="" style="font-size:larger" class="active">002</a></li>
-            <li><a href="./project3.html" title="" style="font-size:larger">003</a></li>
+            <li><a href="./project2.html" title="" style="font-size:larger" >002</a></li>
+            <li><a href="./project3.html" title="" style="font-size:larger" class="active">003</a></li>
             <li><a href="https://github.com/dexterity74/dotmewebsite" title="" style="font-size:larger">004</a></li>
 
             <!-- add new tags to other new projects here -->
@@ -110,13 +110,7 @@
   <br>
 </footer>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     type();
-     matchTextDevice();
-     navActivePage();
-  });
-</script>
+
 
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
@@ -131,10 +125,19 @@
   ga('send', 'pageview');
 </script>-->
 
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    if(ua.device.family != 'iPhone' && ua.device.family != 'Mobile' && ua.device.family != 'iPad') {
+      typeProj();
+    }
+    navActivePage();
+  });
+</script>
+
 <script src="../js/medium-zoom.js"></script>
 <script src="../js/zoomImage.js"></script>
 <script src="../js/detect.min.js"></script>
-<script src="../js/detectiosProjects.js"></script>
+<script src="../js/detectios.js"></script>
 <script src="../js/aWholeLotOf.js"></script>
 
 </body>
