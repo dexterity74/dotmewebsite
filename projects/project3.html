@@ -127,8 +127,9 @@
 
 <script>
   document.addEventListener("DOMContentLoaded", function (event) {
+    const ua = detect.parse(navigator.userAgent);
     if(ua.device.family != 'iPhone' && ua.device.family != 'Mobile' && ua.device.family != 'iPad') {
-      typeProj();
+      type();
     }
     navActivePage();
   });
