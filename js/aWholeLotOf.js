@@ -293,7 +293,7 @@
 		t.exports = n.p + "../assets/images/profile_bgblur.jpg"
 	},
 	"4vuW": function(t, e, n) {
-		t.exports = n.p + "../projimageswork001-03.jpg"
+		t.exports = n.p + "../projimagesblackjackFlowChart.jpeg"
 	},
 	"6wzU": function(t, e, n) {
 		n("Lu+Q"), n("s51k"), n("m5Wh"), n("x66a"), n("laCn"), n("hxo1"), n("mEQU"), n("1/9l"), n("oOvE"), n("gnpq"), n("vQEO"), n("V1TA")
@@ -504,7 +504,7 @@
 		}).call(e, n("juYr"))
 	},
 	bz8M: function(t, e, n) {
-		t.exports = n.p + "../projimageswork001-01.jpg"
+		t.exports = n.p + "../projimagesblackjackHeader.jpg"
 	},
 	e9iq: function(t, e) {},
 	gnpq: function(t, e, n) {
@@ -4503,9 +4503,9 @@
 			"./apple-icon-180x180.png": "4FPD",
 			"./images/profile_bgblur.jpg": "4hhi",
 			"./images/bg.jpg": "wonT",
-			"./images/work001-01.jpg": "bz8M",
-			"./images/work001-02.jpg": "tmRP",
-			"./images/work001-03.jpg": "4vuW",
+			"./images/blackjackHeader.jpg": "bz8M",
+			"./images/blackjackBlockDiagram.jpeg": "tmRP",
+			"./images/blackjackFlowChart.jpeg": "4vuW",
 			"./images/work001-04.jpg": "LyUB",
 			"./images/work01-hover.jpg": "jgpj",
 			"./images/work02-hover.jpg": "wvqX",
@@ -4549,7 +4549,7 @@
 		}).call(e, n("juYr"))
 	},
 	tmRP: function(t, e, n) {
-		t.exports = n.p + "../projimageswork001-02.jpg"
+		t.exports = n.p + "../projimagesblackjackBlockDiagram.jpeg"
 	},
 	vQEO: function(t, e, n) {
 		(function(t) {
