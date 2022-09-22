@@ -33,11 +33,3 @@ function matchBackgroundDevice() {
         movingBackgroundImage();
     }
 }
-
-function matchTextDevice() {
-    let fontSize = document.getElementById('typedProj1');
-
-    if(ua.device.family === 'iPhone' || ua.device.type === 'Mobile') {
-        fontSize.style.fontSize = '15px !important';
-    }
-}
