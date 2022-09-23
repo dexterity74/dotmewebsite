@@ -81,6 +81,7 @@
         </div>
       </div>
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <p>Block Diagrams are very helpful when designing multi-level modules. Flow Charts are also helpful for visualizing the proper sequence of an FSM (Finite State Machine).</p>
         <div class="row text-center">
           <div class="col-xs-12 col-md-6">
             <img class="img-responsive zoom-background" src="../projimages/blackjackBlockDiagram.jpeg" alt="">
@@ -96,7 +97,7 @@
         <p>Being limited to 7-Segment output displays, there needed to be a way to identify alphanumerical characters. </p>
         <div class="row text-center">
           <img class="img-responsive zoom-background" style="max-width: 50%; margin:auto" src="../projimages/blackjackSiekoo.jpg"  alt="">
-          <p><b>Confusion-less 7-Segment-Alphabet</b></p>
+          <p><b>Confusion-free 7-Segment-Alphabet</b></p>
         </div>
       </div>
       <div class="col-md-8 col-md-offset-2 section-container-spacer">
@@ -162,16 +163,42 @@
       <img src="https://github-link-card.s3.ap-northeast-1.amazonaws.com/justin-negron/BlackJack-FPGA.png" width="350px">
     </a>
   </div>
-  <br>
-  <div class="container">
-    <hr>
-  </div>
-  <br>
-  <h3 style="text-align: center">Page is still under construction...<br>Adding VGA Output port...</h3>
 </div>
-
-
-
+<div class="container">
+  <hr>
+</div>
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="../projimages/blackjackHeaderVGA.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">
+              <span id="typed-strings2">
+                <span>002 : Blackjack Emulator VGA</span>
+              </span>
+              <span id="typed2"></span>
+            </h1>
+          </div>
+          <p>This project is an extension of the base blackjack project. 
+             I used the original datapath as all of the blackjack logic is fully functional.
+             Instead of using the 7-Segment displays, I now utilized the VGA port on the DE2-115 FPGA board.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-md-8 col-md-offset-2 section-container-spacer">
+          <p>I disconnected all the 7-Seg modules and interfaced the wrapper module with VGA signals.</p>
+          <div class="row text-center">
+            <img class="img-responsive zoom-background" style="max-width: 50%; margin:auto" src="../projimages/blackjackVGADiagram.jpg"  alt="">
+            <p><b>Restructured Block Diagram</b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- <h3 style="text-align: center">Page is still under construction...<br>Adding VGA Output port...</h3> -->
 <footer class="footer-container text-center" style="background-color: #3A3B3C ">
   <div class="container" >
     <div class="row">
