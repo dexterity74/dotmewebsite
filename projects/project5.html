@@ -17,6 +17,7 @@
   <title>Justin Negron | Projects</title>  
 
 <link href="../css/aWholeLotOf.css" rel="stylesheet"></head>
+<link href="../css/iPhone.css" rel="stylesheet"></head>
 
 <body class="minimal">
 
@@ -46,8 +47,9 @@
           <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
             <li><a href="https://github.com/justin-negron/ProxyDiscordCompany" title="" style="font-size:larger">001</a></li>
             <li><a href="./project2.html" title="" style="font-size:larger">002</a></li>
-            <li><a href="./project3.html" title="" style="font-size:larger" class="active">003</a></li>
+            <li><a href="./project3.html" title="" style="font-size:larger">003</a></li>
             <li><a href="https://github.com/justin-negron/dotmewebsite" title="" style="font-size:larger">004</a></li>
+            <li><a href="./project5.html" title="" style="font-size:larger" class="active">005</a></li>
 
             <!-- add new tags to other new projects here -->
 
@@ -64,48 +66,30 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <img src="../projimages/blackjackHeader.jpg" class="img-responsive" alt="">
+        <img src="../projimages/iotHeader.jpg" class="img-responsive" alt="">
         <div class="card-container">
           <div class="text-center">
             <h1 class="h2">
               <span id="typed-strings1">
-                <span>003 : Logic Gates using MOSFETs</span>
+                <span>005 : IoT Weather System</span>
               </span>
               <span id="typed1"></span>
             </h1>
           </div>
-          <p>Nulla facilisi. Vivamus vestibulum, elit in scelerisque ultricies, nisl nunc pulvinar ligula, id sodales arcu sapien in nisi. Quisque libero enim, mattis non augue posuere, venenatis dapibus urna.</p>
+          <p>Currently working on...</p>
 
-          <blockquote>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante."</p>
-            <small class="pull-right">Irina Martin</small>
-          </blockquote>
-        </div>
-      </div>
-
-      
-      
-      <div class="col-md-8 col-md-offset-2 section-container-spacer">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <img src="../projimages/blackjackBlockDiagram.jpeg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
-          </div>
-          <div class="col-xs-12 col-md-6">
-            <img src="../projimages/blackjackFlowChart.jpeg" class="img-responsive" alt="">
-            <p>Menphis skyline</p>
-          </div>
+          
         </div>
       </div>
 
       <div class="col-xs-12">
-        <img src="../projimages/work001-04.jpg" class="img-responsive" alt="">
+        <!-- <img src="../projimages/work001-04.jpg" class="img-responsive" alt=""> -->
+        <!-- <h3 style="text-align: center">Page is still under construction...</h3> -->
       </div>
 
     </div>
   </div>
 </div>
-
 
 <footer class="footer-container text-center" style="background-color: #3A3B3C ">
   <div class="container" >
@@ -126,13 +110,6 @@
   <br>
 </footer>
 
-<script>
-  document.addEventListener("DOMContentLoaded", function (event) {
-     navActivePage();
-     type();
-  });
-</script>
-
 <!-- Google Analytics: change UA-XXXXX-X to be your site's ID 
 
 <script>
@@ -144,8 +121,23 @@
   })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
   ga('create', 'UA-XXXXX-X', 'auto');
   ga('send', 'pageview');
+</script>-->
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    const ua = detect.parse(navigator.userAgent);
+    if(ua.device.family != 'iPhone' && ua.device.family != 'Mobile' && ua.device.family != 'iPad') {
+      type();
+    }
+    navActivePage();
+  });
 </script>
 
---> <script type="text/javascript" src="../js/aWholeLotOf.js"></script></body>
+<script src="../js/medium-zoom.js"></script>
+<script src="../js/zoomImage.js"></script>
+<script src="../js/detect.min.js"></script>
+<script src="../js/detectios.js"></script>
+<script src="../js/aWholeLotOf.js"></script>
 
+</body>
 </html>
