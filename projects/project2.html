@@ -177,7 +177,7 @@
           <div class="text-center">
             <h1 class="h2">
               <span id="typed-strings2">
-                <span>002 : VGA Blackjack Emulator</span>
+                <span>002.5 : Blackjack on VGA</span>
               </span>
               <span id="typed2"></span>
             </h1>
@@ -187,12 +187,54 @@
              Instead of using the 7-Segment displays, I now utilized the VGA port on the DE2-115 FPGA board.</p>
         </div>
       </div>
-      <div class="container">
-        <div class="col-md-8 col-md-offset-2 section-container-spacer">
-          <p>I disconnected all the 7-Seg modules and interfaced the wrapper module with VGA signals.</p>
-          <div class="row text-center">
-            <img class="img-responsive zoom-background" style="max-width: 50%; margin:auto" src="../projimages/project2/blackjackVGADiagram.jpg"  alt="">
-            <p><b>Restructured Block Diagram</b></p>
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <p>I disconnected all the 7-Seg modules and interfaced the wrapper module with VGA signals.</p>
+        <div class="row text-center">
+          <img class="img-responsive zoom-background" style="max-width: 65%; margin:auto" src="../projimages/project2/blackjackVGADiagram.jpg"  alt="">
+          <p><b>Restructured Block Diagram</b></p>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <p>The first step in implementing this is to instantiate the existing blackjack datapath in a working VGA wrapper.
+           And also be enthusiastic when it finally works. </p>
+        <div class="row text-center">
+          <img class="img-responsive zoom-background" style="max-width: 65%; margin:auto" src="../projimages/project2/charromvga.jpg"  alt="">
+          <p><b>Character ROM in each column</b></p>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <p>Adding a "New Game" function so the player can play multiple hands without having to hard reset everything.</p>
+        <div class="row text-center">
+          <img class="img-responsive zoom-background" style="max-width: 75%; margin:auto" src="../projimages/project2/newcontrols.jpg"  alt="">
+          <p><b>New DE2-115 FPGA Controls</b></p>
+        </div>
+      </div>
+      <div class="col-md-8 col-md-offset-2 section-container-spacer">
+        <p>New output</p>
+        <div class="row text-center">
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/winVGA.jpg" alt="">
+            <p><b>VGA "WIN"</b></p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/loseVGA.jpg" alt="">
+            <p><b>VGA "LOSE"</b></p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/tieVGA.jpg" alt="">
+            <p><b>VGA "TIE"</b></p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/bustVGA.jpg" alt="">
+            <p><b>VGA "BUST"</b></p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/blackjackVGA.jpg" alt="">
+            <p><b>VGA "BLACKJACK"</b></p>
+          </div>
+          <div class="col-xs-12 col-md-6">
+            <img class="img-responsive zoom-background" src="../projimages/project2/5ccVGA.jpg" alt="">
+            <p><b>VGA "5CARDCHARLIE"</b></p>
           </div>
         </div>
       </div>
