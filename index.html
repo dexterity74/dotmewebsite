@@ -27,6 +27,7 @@
 
   <link href="./css/aWholeLotOf.css" rel="stylesheet"></head>
   <link href="./css/iPhone.css" rel="stylesheet"></head>
+  <link href="./css/slideee.css" rel="stylesheet"></head>
 
 <body class="minimal">
 <!-- <div id="site-border-left"></div>
@@ -64,26 +65,23 @@
     <div class="container ">
       <div class="row">
         <div class="col-xs-12">
-          <div class="hero-full-wrapper">
-            <div class="text-content">
-              <h1>Hello,<br>
-                <span id="typed-strings1">
-                  <span>I'm Justin Negron</span>
-                  <span>Undergrad Student at UNLV</span>
-                  <span>B.S. Computer Science</span>
-                  <span>B.S. Computer and</span>
-                  <span>B.S. Computer Engineering</span>
-                  <span>Minor in Mathematics</span>
-                  <!-- <span>Double Major in Computer Science</span>
-                  <span>Double Major in and</span>
-                  <span>Double Major in Computer Engineering</span> -->
-                  <!-- <span>Minor In Mathematics</span> -->
-                  <!-- <span>Aspiring Software Engineer</span> -->
-                </span>
-                <span id="typed1"></span>
-              </h1>
+          <section class="hiddenFade">
+            <div class="hero-full-wrapper">
+              <div class="text-content">
+                <h1>Hello,<br>
+                  <span id="typed-strings1">
+                    <span>I'm Justin Negron</span>
+                    <span>Undergrad Student at UNLV</span>
+                    <span>B.S. Computer Science</span>
+                    <span>B.S. Computer and</span>
+                    <span>B.S. Computer Engineering</span>
+                    <span>Minor in Mathematics</span>
+                  </span>
+                  <span id="typed1"></span>
+                </h1>
+              </div>
             </div>
-          </div>
+          </section>
         </div>
       </div>
     </div>
@@ -94,31 +92,37 @@
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">
-              <span id="typed-strings2">
-                <span>02 : About</span>
-              </span>
-              <span id="typed2"></span>
-            </h1>
-          </div>
+          <section class="hiddenSlideUp">
+            <div class="section-container-spacer text-center">
+              <h1 class="h2">
+                <span id="typed-strings2">
+                  <span>02 : About</span>
+                </span>
+                <span id="typed2"></span>
+              </h1>
+            </div>
+          </section>
           <br>
           <div class="row">
             <div class="col-md-10 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-6">
                   <div class="br-margin-desktop">
-                    <h3>Justin Negron
-                      <p style="font-size:17px">
-                        University of Nevada, Las Vegas
-                      </p>
+                    <h3>
+                      <section class="hiddenSlideRight"> Justin Negron </section>
+                      <section class="hiddenSlideRight">
+                        <p style="font-size:17px"> University of Nevada, Las Vegas </p>
+                      </section>
                     </h3>
-                    <p>I am currently an undergraduate working towards two bachelor of science degrees in Computer Science and Computer Engineering, 
-                      and also receiving a Minor in Mathematics. I graduate this December 2023, and am now seeking New Grad opportunities for 2024.</p>
-                    </div>
+                    <section class="hiddenSlideRight">
+                      <p>I am currently an undergraduate working towards two bachelor of science degrees in Computer Science and Computer Engineering, and also receiving a Minor in Mathematics. I graduate this December 2023, and am now seeking New Grad opportunities for 2024.</p>
+                    </section>
                   </div>
+                </div>
                 <div class="col-xs-12 col-md-5">
-                  <img src="./assets/images/profile_bgblur.jpg" class="img-responsive" alt="">
+                  <section class="hiddenSlideLeft">
+                    <img src="./assets/images/profile_bgblur.jpg" class="img-responsive" alt="">
+                  </section>
                 </div>
               </div>
             </div>
@@ -131,67 +135,68 @@
 <!-- Projects -->
 <div id="projects">
   <div class="container">
-    <br><hr><br>
+    <br>
+    <hr>
+    <br>
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2 section-container-spacer">
-        <div class="text-center">
-          <h1 class="h2">
-            <span id="typed-strings3">
-              <span>03 : Projects</span>
-            </span>
-            <span id="typed3"></span>
-          </h1>
-          <p>
-            These are my personal projects, or university projects that I am proud of. 
-          </p>
-        </div>
+        <section class="hiddenSlideUp">
+          <div class="text-center">
+            <h1 class="h2">
+              <span id="typed-strings3">
+                <span>03 : Projects</span>
+              </span>
+              <span id="typed3"></span>
+            </h1>
+            <p> These are my personal projects, or university projects that I am proud of. </p>
+          </div>
+        </section>
       </div>
-
       <div class="col-md-12">
-     
-      <div id="myCarousel" class="carousel slide projects-carousel">
-        <!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="item active">
+        <section class="hiddenSlideUp">
+          <div id="myCarousel" class="carousel slide projects-carousel">
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
                 <div class="row">
-                    <div class="col-sm-4">
-                      <a href="https://github.com/justin-negron/ProxyDiscordCompany" title="" class="black-image-project-hover">
-                        <img src="./projimages/index/adminhelpmenu.jpg" alt="" class="img-responsive">
-                      </a>
-                      <div class="card-container card-container-lg">
-                        <h4>001/006</h4>
-                        <h3>Proxy Company Management</h3>
-                        <p>Discord bot for running a proxy company.</p>
-                        <a href="https://github.com/justin-negron/ProxyDiscordCompany" title="" class="btn btn-default">Github Repo</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <a href="./projects/project2" title="" class="black-image-project-hover">
-                        <img src="./projimages/index/de2boardbanner.jpg" alt="" class="img-responsive">
-                      </a>
-                      <div class="card-container card-container-lg">
-                        <h4>002/006</h4>
-                        <h3>Blackjack Emulator</h3>
-                        <p>Practice gambling without losing money.</p>
-                        <a href="./projects/project2" title="" class="btn btn-default">Discover</a>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <a href="./projects/project3" title="" class="black-image-project-hover">
-                        <img src="./projimages/index/mosfettologic.jpg" alt="" class="img-responsive">
-                      </a>
-                      <div class="card-container card-container-lg">
-                        <h4>003/006</h4>
-                        <h3>Logic Gates using MOSFETs</h3>
-                        <p>Creating logic gates without the assistance of gates.</p>
-                        <a href="./projects/project3" title="" class="btn btn-default">Discover</a>
-                      </div>
+                  <div class="col-sm-4">
+                    <a href="https://github.com/justin-negron/ProxyDiscordCompany" title="" class="black-image-project-hover">
+                      <img src="./projimages/index/adminhelpmenu.jpg" alt="" class="img-responsive">
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h4>001/006</h4>
+                      <h3>Proxy Company Management</h3>
+                      <p>Discord bot for running a proxy company.</p>
+                      <a href="https://github.com/justin-negron/ProxyDiscordCompany" title="" class="btn btn-default">Github Repo</a>
                     </div>
                   </div>
+                  <div class="col-sm-4">
+                    <a href="./projects/project2" title="" class="black-image-project-hover">
+                      <img src="./projimages/index/de2boardbanner.jpg" alt="" class="img-responsive">
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h4>002/006</h4>
+                      <h3>Blackjack Emulator</h3>
+                      <p>Practice gambling without losing money.</p>
+                      <a href="./projects/project2" title="" class="btn btn-default">Discover</a>
+                    </div>
+                  </div>
+                  <div class="col-sm-4">
+                    <a href="./projects/project3" title="" class="black-image-project-hover">
+                      <img src="./projimages/index/mosfettologic.jpg" alt="" class="img-responsive">
+                    </a>
+                    <div class="card-container card-container-lg">
+                      <h4>003/006</h4>
+                      <h3>Logic Gates using MOSFETs</h3>
+                      <p>Creating logic gates without the assistance of gates.</p>
+                      <a href="./projects/project3" title="" class="btn btn-default">Discover</a>
+                    </div>
+                  </div>
+                </div>
                 <!--/row-->
-            </div>
-            <!--/item-->
-            <div class="item">
+              </div>
+              <!--/item-->
+              <div class="item">
                 <div class="row">
                   <div class="col-sm-4">
                     <a href="https://github.com/justin-negron/dotmewebsite" class="black-image-project-hover">
@@ -204,17 +209,7 @@
                       <a href="https://github.com/justin-negron/dotmewebsite" class="btn btn-default">Github Repo</a>
                     </div>
                   </div>
-                  <!-- <div class="col-sm-4">
-                    <a href="./projects/project5" title="" class="black-image-project-hover">
-                      <img src="./projimages/index/mosfetindex.jpg" alt="" class="img-responsive">
-                    </a>
-                    <div class="card-container card-container-lg">
-                      <h4>005/005</h4>
-                      <h3>IoT Weather System</h3>
-                      <p>Using a mesh of sensors to detect weather parameters.</p>
-                      <a href="./projects/project5" title="" class="btn btn-default">Discover</a>
-                    </div>
-                  </div> -->
+                  <!-- <div class="col-sm-4"><a href="./projects/project5" title="" class="black-image-project-hover"><img src="./projimages/index/mosfetindex.jpg" alt="" class="img-responsive"></a><div class="card-container card-container-lg"><h4>005/005</h4><h3>IoT Weather System</h3><p>Using a mesh of sensors to detect weather parameters.</p><a href="./projects/project5" title="" class="btn btn-default">Discover</a></div></div> -->
                   <div class="col-sm-4">
                     <a href="./projects/project5" title="" class="black-image-project-hover">
                       <img src="./projimages/index/udbposter.jpeg" alt="" class="img-responsive">
@@ -238,43 +233,21 @@
                     </div>
                   </div>
                   <!-- add new projects here -->
-
-                   <!-- <div class="col-sm-4">
-                      <a href="./projects/project1" class="black-image-project-hover">
-                        <img src="./projimages/index/adminhelpmenu.jpg" alt="Image" class="img-responsive">
-                      </a>
-                      <div class="card-container">
-                        <h4>005/005</h4>
-                        <h3>Fringilla sit amet</h3>
-                        <p>Discord bot for running a proxy company and managing sub-users</p>
-                        <a href="./projects/project1" class="btn btn-default">Discover</a>
-                      </div>
-                    </div>
-                    
-                    <div class="col-sm-4">
-                      <a href="./projects/project1" class="black-image-project-hover">
-                        <img src="./projimages/index/mosfettologic.jpg" alt="Image" class="img-responsive">
-                      </a>
-                      <div class="card-container">
-                        <h4>006/005</h4>
-                        <h3>Vivamus vestibulum</h3>
-                        <p>Fusce sed hendrerit augue, a rhoncus velit.</p>
-                        <a href="./projects/project1" class="btn btn-default">Discover</a>
-                      </div>
-                    </div> -->
+                  <!-- <div class="col-sm-4"><a href="./projects/project1" class="black-image-project-hover"><img src="./projimages/index/adminhelpmenu.jpg" alt="Image" class="img-responsive"></a><div class="card-container"><h4>005/005</h4><h3>Fringilla sit amet</h3><p>Discord bot for running a proxy company and managing sub-users</p><a href="./projects/project1" class="btn btn-default">Discover</a></div></div><div class="col-sm-4"><a href="./projects/project1" class="black-image-project-hover"><img src="./projimages/index/mosfettologic.jpg" alt="Image" class="img-responsive"></a><div class="card-container"><h4>006/005</h4><h3>Vivamus vestibulum</h3><p>Fusce sed hendrerit augue, a rhoncus velit.</p><a href="./projects/project1" class="btn btn-default">Discover</a></div></div> -->
                 </div>
                 <!--/row-->
+              </div>
+              <!--/item-->
             </div>
-            <!--/item-->
-        </div>
-        <!--/carousel-inner--> 
-        <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-        <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+            <!--/carousel-inner-->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+          </div>
+          <!--/myCarousel-->
+        </section>
       </div>
-    <!--/myCarousel-->
     </div>
   </div>
-</div>
 
 
 <!-- Skills -->
@@ -283,59 +256,66 @@
       <hr><br>
       <div class="row">
         <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">
-              <span id="typed-strings4">
-                <span>04 : Skills</span>
-              </span>
-              <span id="typed4"></span>
-            </h1>
-          </div>
+          <section class="hiddenSlideUp">
+            <div class="section-container-spacer text-center">
+              <h1 class="h2">
+                <span id="typed-strings4">
+                  <span>04 : Skills</span>
+                </span>
+                <span id="typed4"></span>
+              </h1>
+            </div>
+          </section>
           <div class="row">
             <div class="column" style="text-align:center;height:275px">
-               <h3>
-                Proficient
-              </h3>
-              <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
-                I've done multiple projects with these
-              </p>
-              <ul style="display:inline-block ; font-size:14px ; padding: 0">
-                <li style="text-align:left">Java</li>
-                <li style="text-align:left">C++</li>
-                <li style="text-align:left">C#</li>
-                <li style="text-align:left">TypeScript</li>
-                <li style="text-align:left">Node.js</li>
-                <li style="text-align:left">Ruby</li>
-                <li style="text-align:left">System Verilog</li>
-              </ul>
+              <section class="hiddenSlideRight" style="place-items: center ; align-content: center">
+                <h3>
+                  Proficient
+                </h3>
+                <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
+                  I've done multiple projects with these
+                </p>
+                <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                  <li style="text-align:left">Java</li>
+                  <li style="text-align:left">C++</li>
+                  <li style="text-align:left">C#</li>
+                  <li style="text-align:left">TypeScript</li>
+                  <li style="text-align:left">Node.js</li>
+                  <li style="text-align:left">Ruby</li>
+                  <li style="text-align:left">System Verilog</li>
+                </ul>
+              </section>
             </div>
             <div class="column" style="text-align:center;height:275px">
-               <h3>
-                Semi-Proficient
-              </h3>
-              <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
-                I've used these for one or two projects
-              </p>
-              <ul style="display:inline-block ; font-size:14px ; padding: 0">
-                <li style="text-align:left">Python</li>
-                <li style="text-align:left">HTML/CSS/JS</li>
-                <li style="text-align:left">MIPS</li>
-                <li style="text-align:left">RISC-V</li>
-                <li style="text-align:left">x86 Assembly</li>
-              </ul>
+              <section class="hiddenSlideUp" style="place-items: center ; align-content: center">
+                <h3>
+                  Semi-Proficient
+                </h3>
+                <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
+                  I've used these for one or two projects
+                </p>
+                <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                  <li style="text-align:left">Python</li>
+                  <li style="text-align:left">HTML/CSS/JS</li>
+                  <li style="text-align:left">MIPS</li>
+                  <li style="text-align:left">RISC-V</li>
+                  <li style="text-align:left">x86 Assembly</li>
+                </ul>
+              </section>
             </div>
-            <div class="column" style="text-align:center">
-               <h3>
-                Familiar
-              </h3>
-              <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
-                I have touched these once
-              </p>
-              <ul style="display:inline-block ; font-size:14px ; padding: 0">
-                <br>
-                <li style="text-align:left">Cobol</li>
-                <li style="text-align:left">Lisp</li>
-              </ul>
+            <div class="column" style="text-align:center;height:275px">
+              <section class="hiddenSlideLeft" style="place-items: center ; align-content: center">
+                <h3>
+                  Familiar
+                </h3>
+                <p style="font-size:16px ; padding-left: 50px ; padding-right: 50px">
+                  I have touched these once
+                </p>
+                <ul style="display:inline-block ; font-size:14px ; padding: 0">
+                  <li style="text-align:left">Cobol</li>
+                  <li style="text-align:left">Lisp</li>
+                </ul>
+              </section>
             </div>
           </div>
         </div>
@@ -347,96 +327,112 @@
 <!-- Experience -->
   <div id="experience">
     <div class="container">
-      <br><hr><br>
+      <br>
+      <hr>
+      <br>
       <div class="row">
         <div class="col-xs-12">
-          <div class="section-container-spacer text-center">
-            <h1 class="h2">
-              <span id="typed-strings5">
-                <span>05 : Experience</span>
-              </span>
-              <span id="typed5"></span>
-            </h1>
-          </div>
-
+          <section class="hiddenSlideUp">
+            <div class="section-container-spacer text-center">
+              <h1 class="h2">
+                <span id="typed-strings5">
+                  <span>05 : Experience</span>
+                </span>
+                <span id="typed5"></span>
+              </h1>
+            </div>
+          </section>
           <div class="row">
             <div class="col-md-12 col-md-offset-1">
               <div class="row">
                 <div class="col-xs-12 col-md-7">
-                  <h3>Software Engineer Intern<br>
-                    <p style="font-size:17px">Bank of America
-                      <span style="float:right">
-                        Jun 2023 — Aug 2023
-                      </span>
-                    </p>
+                  <h3>
+                    <section class="hiddenSlideRight"> Software Engineer Intern </section>
+                    <section class="hiddenSlideRight">
+                      <p style="font-size:17px">Bank of America <span style="float:right"> Jun 2023 — Aug 2023 </span>
+                      </p>
+                    </section>
                   </h3>
-                  <p>Emulating real-user behavior with VUGen C scripts to conduct system-wide performance testing on LoadRunner<br>
-                    Maintaining multiple Test environment tables to replicate Production for accurate Test results<br>
-                    Enhancing Python script–that converts LoadRunner analytics to Excel DF–to also compare results with previous test<br>
-                    Upgrading existing Python scripts to integrate Dynatrace analytics using the Dynatrace API<br>
-                      <b>Tools:</b>  C · Python · LoadRunner · Dynatrace · Oracle SQL Developer · Java
+                  <section class="hiddenSlideRight">
+                    <p> 
+                      Emulating real-user behavior with VUGen C scripts to conduct system-wide performance testing on LoadRunner <br> 
+                      Maintaining multiple Test environment tables to replicate Production for accurate Test results <br> 
+                      Enhancing Python script–that converts LoadRunner analytics to Excel DF–to also compare results with previous test <br> 
+                      Upgrading existing Python scripts to integrate Dynatrace analytics using the Dynatrace API <br>
+                      <b>Tools:</b> C · Python · LoadRunner · Dynatrace · Oracle SQL Developer · Java
                     </p>
+                  </section>
                 </div>
                 <div class="col-xs-12 col-md-3">
-                  <a href="https://cashproonline.bankofamerica.com/cpoauthweb/cpo/#/login/public/signin/" target="_blank" >
-                    <img src="./assets/images/bofa.png" class="img-responsive" alt="">
+                  <a href="https://cashproonline.bankofamerica.com/cpoauthweb/cpo/#/login/public/signin/" target="_blank">
+                    <section class="hiddenSlideLeft">
+                      <img src="./assets/images/bofa.png" class="img-responsive" alt="">
+                    </section>
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
-            <div class="row">
-              <div class="col-md-12 col-md-offset-1">
-                <div class="row">
-                  <div class="col-xs-12 col-md-7">
-                    <h3>Software Engineer Intern<br>
-                      <p style="font-size:17px">Fire By Design
-                        <span style="float:right">
-                          May 2022 — Jan 2023
-                        </span>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-7">
+                  <h3>
+                    <section class="hiddenSlideRight"> Software Engineer Intern </section>
+                    <section class="hiddenSlideRight">
+                      <p style="font-size:17px">Fire by Design <span style="float:right"> May 2022 — Jan 2023 </span>
                       </p>
-                    </h3>
-                    <p>Developed a Ruby on Rails web application to replace manual Excel inventory management<br>
-                      Added a CSV import to upload existing Excel spreadsheets to populate DB tables<br>
-                      Implemented a binary search algorithm to search all Products and relative Parts<br>
-                        <b>Tools:</b> Ruby on Rails · PostgreSQL · Bootstrap (Framework) · HTML/CSS
-                      </p>
-                  </div>
-                  <div class="col-xs-12 col-md-3">
-                    <a href="https://firebydesign.com/" target="_blank" >
+                    </section>
+                  </h3>
+                  <section class="hiddenSlideRight">
+                    <p> 
+                      Developed a Ruby on Rails web application to replace manual Excel inventory management <br> 
+                      Added a CSV import to upload existing Excel spreadsheets to populate DB tables <br> 
+                      Implemented a binary search algorithm to search all Products and relative Parts <br>
+                      <b>Tools:</b> Ruby on Rails · PostgreSQL · Bootstrap (Framework) · HTML/CSS
+                    </p>
+                  </section>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <a href="https://firebydesign.com/" target="_blank">
+                    <section class="hiddenSlideLeft">
                       <img src="./assets/images/firebydesign.jpg" class="img-responsive" alt="">
-                    </a>
-                  </div>
+                    </section>
+                  </a>
                 </div>
               </div>
             </div>
-            
-            <div class="row">
-              <div class="col-md-12 col-md-offset-1">
-                <div class="row">
-                  <div class="col-xs-12 col-md-7">
-                    <h3>Software Engineer Intern<br>
-                      <p style="font-size:17px">Westinis/Five Rivers Cattle
-                        <span style="float:right">
-                          Jun 2021 — Aug 2021
-                        </span>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-md-offset-1">
+              <div class="row">
+                <div class="col-xs-12 col-md-7">
+                  <h3>
+                    <section class="hiddenSlideRight"> Software Engineer Intern </section>
+                    <section class="hiddenSlideRight">
+                      <p style="font-size:17px">Westinis/Five Rivers Cattle<span style="float:right"> Jun 2021 — Aug 2021 </span>
                       </p>
-                    </h3>
-                    <p>Extracted geo-location data points from IoT devices and Smartphones with Blazor WebAssembly<br>
-                      Calibrated geo-location data points to be displayed on XAML Map Interface<br>
-                      Evaluated if existing Razor pages could be upgraded to Blazor pages<br>
+                    </section>
+                  </h3>
+                  <section class="hiddenSlideRight">
+                    <p>Extracted geo-location data points from IoT devices and Smartphones with Blazor WebAssembly <br> 
+                      Calibrated geo-location data points to be displayed on XAML Map Interface <br> 
+                      Evaluated if existing Razor pages could be upgraded to Blazor pages <br>
                       <b>Tools:</b> Azure SQL · Blazor · .NET Framework · XAML · C#
-                      </p>
-                  </div>
-                  <div class="col-xs-12 col-md-3">
-                    <a href="https://www.westinis.com/default.aspx" target="_blank" >
+                    </p>
+                  </section>
+                </div>
+                <div class="col-xs-12 col-md-3">
+                  <a href="https://www.westinis.com/default.aspx" target="_blank">
+                    <section class="hiddenSlideLeft">
                       <img src="./assets/images/westinis.png" class="img-responsive" alt="">
-                    </a>
-                    <a href="https://www.fiveriverscattle.com/" target="_blank" >
+                    </section>
+                  </a>
+                  <a href="https://www.fiveriverscattle.com/" target="_blank">
+                    <section class="hiddenSlideLeft">
                       <img src="./assets/images/frc.png" class="img-responsive" alt="">
-                    </a>
-                  </div>
+                    </section>
+                  </a>
                 </div>
               </div>
             </div>
@@ -446,7 +442,7 @@
     </div>
   </div>
 
-  <br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <br><br><br>
 
   <footer class="footer-container text-center" style="background-color: #3A3B3C ">
     <div class="container" >
@@ -479,7 +475,8 @@
 <script src="./js/detect.min.js"></script>
 <script src="./js/detectios.js"></script>
 <script src="./js/aWholeLotOf.js"></script>
-<script src="./js/observer.js"></script>
+<script src="./js/navObserver.js"></script>
+<script src="./js/hiddenObserver.js"></script>
 
 </body>
 </html>

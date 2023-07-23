@@ -133,7 +133,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
-  -webkit-appearance: button;
+  /* -webkit-appearance: button; */
   cursor: pointer;
 }
 button[disabled],
@@ -158,7 +158,7 @@ input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: textfield;
+  /* -webkit-appearance: textfield; */
   box-sizing: content-box;
 }
 input[type="search"]::-webkit-search-cancel-button,
@@ -1894,7 +1894,7 @@ textarea.form-control {
   height: auto;
 }
 input[type="search"] {
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
   input[type="date"].form-control,
@@ -4229,7 +4229,7 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
-  -webkit-appearance: none;
+  /* -webkit-appearance: none; */
 }
 .carousel,
 .carousel-inner {
@@ -4503,9 +4503,6 @@ button.close {
 .hide {
   display: none !important;
 }
-.show {
-  display: block !important;
-}
 .invisible {
   visibility: hidden;
 }
@@ -4515,9 +4512,6 @@ button.close {
   text-shadow: none;
   background-color: transparent;
   border: 0;
-}
-.hidden {
-  display: none !important;
 }
 .affix {
   position: fixed;
