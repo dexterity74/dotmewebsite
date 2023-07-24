@@ -28,6 +28,7 @@
   <link href="./css/aWholeLotOf.css" rel="stylesheet"></head>
   <link href="./css/iPhone.css" rel="stylesheet"></head>
   <link href="./css/slideee.css" rel="stylesheet"></head>
+  <link href="./css/wavyFooter.css" rel="stylesheet"></head>
 
 <body class="minimal">
 <!-- <div id="site-border-left"></div>
@@ -61,11 +62,11 @@
   </nav>
 </header>
 <!-- Home -->
-  <div class="hero-full-container background-image-container white-text-container " id="home">
-    <div class="container ">
-      <div class="row">
-        <div class="col-xs-12">
-          <section class="hiddenFade">
+  <section class="hiddenFade">
+    <div class="hero-full-container background-image-container white-text-container " id="home">
+      <div class="container ">
+        <div class="row">
+          <div class="col-xs-12">
             <div class="hero-full-wrapper">
               <div class="text-content">
                 <h1>Hello,<br>
@@ -81,11 +82,11 @@
                 </h1>
               </div>
             </div>
-          </section>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </section>
 
 <!-- About -->
   <div class="section-container" id="about">
@@ -442,9 +443,38 @@
     </div>
   </div>
 
-  <br><br><br>
+  <br><br><br><br><br>
 
-  <footer class="footer-container text-center" style="background-color: #3A3B3C ">
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+    </div>
+    <ul class="social-icon">
+      <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-facebook"></ion-icon>
+        </a></li> -->
+      <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/justin-negron" target="_blank" title="">
+          <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/justin-negron/" target="_blank" title="">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <!-- <li class="social-icon__item"><a class="social-icon__link" href="#">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a></li> -->
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="mailto: justinnegron174@gmail.com" style="font-size:18px">justinnegron174@gmail.com</a></li>
+      <!-- <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li> -->
+    </ul>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- <footer class="footer-container text-center" style="background-color: #3A3B3C ">
     <div class="container" >
       <div class="row">
         <div class="col-xs-12">
@@ -461,7 +491,7 @@
       </div>
     </div>
     <br>
-  </footer>
+  </footer> -->
 
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
