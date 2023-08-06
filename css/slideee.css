@@ -47,3 +47,7 @@ section {
     transform: translateX(0);
     transform: translateZ(0);
 }
+/* .show:active {
+    opacity: 1;
+    transition: none;
+} */
