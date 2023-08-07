@@ -5314,3 +5314,17 @@ body, .Consolas {
     scrollbar-width: none;  /* Firefox */
   }
 }
+
+.box {
+  position: relative;
+}
+.scenic_location_left {
+  position:absolute;
+  bottom:0;
+  left:0;
+}
+.scenic_location_right {
+  position:absolute;
+  bottom:0;
+  right:0;
+}
