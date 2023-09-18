@@ -13,6 +13,14 @@ Used [normalize.css](https://github.com/necolas/normalize.css), best css reset.
 
 # Tools
 
+### Current Hosting
+* AWS CloudFront Distribution (Redirect from HTTP to HTTPS with Cert)
+* AWS Route 53 (DNS Management)
+* AWS S3 Bucket (Host a Static Website only HTTP)
+* AWS Certificate Manager (Get SSL Cert for domain)
+* Namecheap Domain
+
+#### Previous Hosting ( ISP keeps making my IP Dynamic D:< )
 * Hosted on a Raspberry PI 4
 * NGINX Reverse Proxy and Web Server
 * Let's Encrypt SSL Certificate
